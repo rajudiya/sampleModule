@@ -1,28 +1,23 @@
 {
-  "name": "sample/sampleModule",
-  "description": "This is a Sample Module",
+  "name": "Sample/sampleModule",
+  "description": "Sample Module quick Install",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "minimum-stability": "stable",
   "require": {
-      "php": "~8.1.2"
+      "php": "~7.3.0||~7.4.0||~8.0.0",
+      "magento/framework": "102.0.*|103.0.*",
+      "salecto2/magento2-admin-theme": "*"
   },
   "autoload": {
     "files": [
       "registration.php"
     ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/rajudiya/sampleModule"
-        }
-      ],
     "psr-4": {
-      "sample\\sampleModule\\": ""
+      "Sample\\sampleModule\\": ""
     }
   }
 }
