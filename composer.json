@@ -14,14 +14,14 @@
     "files": [
       "registration.php"
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/rajudiya/sampleModule"
+        }
+      ],
     "psr-4": {
       "sample\\sampleModule\\": ""
     }
   }
-  "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/rajudiya/sampleModule"
-        },
-]
 }
