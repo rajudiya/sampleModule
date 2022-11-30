@@ -4,12 +4,12 @@ URL: `http://mage244.com/`
 
 ## Composer install
 
-- `composer config repositories.reponame vcs https://github.com/username/reponame`
-- `composer require vendername/modulename`
+- `composer config repositories.reponame vcs https://github.com/rajudiya/sampleModule`
+- `composer require vendername/sampleModule`
 
 ## Composer uninstall
 
-- `composer remove vendername/modulename:branch name`
+- `composer remove vendername/sampleModule:branch name`
 
 ## Preview will be added
 
