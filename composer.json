@@ -2,13 +2,13 @@
   "name": "sample/sampleModule",
   "description": "This is a Sample Module",
   "type": "magento2-module",
-  "version": "*",
+  "version": "1.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
   ],
   "require": {
-      "php": "*"
+      "php": "~8.0.0"
   },
   "autoload": {
     "files": [
